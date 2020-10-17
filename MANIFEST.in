@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gcal_timesheet *.css
+recursive-include gcal_timesheet *.csv
+recursive-include gcal_timesheet *.html
+recursive-include gcal_timesheet *.ico
+recursive-include gcal_timesheet *.js
+recursive-include gcal_timesheet *.json
+recursive-include gcal_timesheet *.md
+recursive-include gcal_timesheet *.png
+recursive-include gcal_timesheet *.py
+recursive-include gcal_timesheet *.svg
+recursive-include gcal_timesheet *.txt
+recursive-exclude gcal_timesheet *.pyc
